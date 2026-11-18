@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Art Tattoo Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h2>LOCAL ART <span>TATTOO SHOP</span></h2>
+    <button id="menuBtn">☰</button>
+
+    <nav id="navMenu">
+        <a href="#home">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#services">Services</a>
+        <a href="#booking">Booking</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <div>
+        <h1>YOUR STORY.<br><span>YOUR INK.</span></h1>
+        <p>Creative tattoo designs made for your personal style.</p>
+        <a href="#booking" class="btn">Book Now</a>
+    </div>
+</section>
+
+<section id="gallery" class="section">
+    <h2>Tattoo Gallery</h2>
+    <p>Choose a design or get inspiration for your next tattoo.</p>
+
+    <div class="gallery">
+        <div class="art"><span>✿</span><h3>Flower Tattoo</h3></div>
+        <div class="art"><span>〰</span><h3>Tribal Tattoo</h3></div>
+        <div class="art"><span>Amor</span><h3>Lettering Tattoo</h3></div>
+        <div class="art"><span>☾</span><h3>Moon Tattoo</h3></div>
+        <div class="art"><span>△</span><h3>Geometric Tattoo</h3></div>
+        <div class="art"><span>✦</span><h3>Minimalist Tattoo</h3></div>
+    </div>
+</section>
+
+<section id="services" class="section dark">
+    <h2>Our Services</h2>
+
+    <div class="services">
+        <div class="card">
+            <h3>Fine Line</h3>
+            <p>Simple and small designs.</p>
+            <h2>₱800+</h2>
+        </div>
+
+        <div class="card">
+            <h3>Lettering</h3>
+            <p>Names, words, and dates.</p>
+            <h2>₱1,000+</h2>
+        </div>
+
+        <div class="card">
+            <h3>Floral Tattoo</h3>
+            <p>Flowers and nature designs.</p>
+            <h2>₱1,500+</h2>
+        </div>
+
+        <div class="card">
+            <h3>Custom Tattoo</h3>
+            <p>Personalized tattoo artwork.</p>
+            <h2>₱2,500+</h2>
+        </div>
+    </div>
+
+    <p class="note">Sample prices only. Final prices depend on the design and size.</p>
+</section>
+
+<section id="booking" class="section">
+    <h2>Home Service Booking</h2>
+    <p>Request an appointment at your preferred location.</p>
+
+    <form id="bookingForm">
+        <input type="text" id="name" placeholder="Full Name" required>
+        <input type="email" id="email" placeholder="Email Address" required>
+        <input type="tel" id="phone" placeholder="Phone Number" required>
+
+        <select id="service" required>
+            <option value="">Select Tattoo Service</option>
+            <option>Fine Line</option>
+            <option>Lettering</option>
+            <option>Floral Tattoo</option>
+            <option>Custom Tattoo</option>
+        </select>
+
+        <input type="date" id="date" required>
+        <input type="text" id="location" placeholder="Your Location" required>
+        <textarea id="idea" placeholder="Describe your tattoo design" required></textarea>
+
+        <button type="submit" class="btn">Request Booking</button>
+        <p id="bookingMessage"></p>
+    </form>
+</section>
+
+<section id="about" class="section dark">
+    <h2>About Our Artist</h2>
+    <div class="about-box">
+        <div class="artist">LA</div>
+        <div>
+            <h3>Local Art Tattoo Artist</h3>
+            <p>We create custom tattoo designs based on our customers' ideas and personal styles. We aim to provide friendly service, careful design planning, and proper tattoo aftercare information.</p>
+        </div>
+    </div>
+</section>
+
+<section id="safety" class="section">
+    <h2>Safety Information</h2>
+
+    <div class="services">
+        <div class="card">
+            <h3>Clean Equipment</h3>
+            <p>Use sterile equipment and new, single-use needles for each customer.</p>
+        </div>
+
+        <div class="card">
+            <h3>Clean Workspace</h3>
+            <p>Keep the tattoo area clean and properly prepared.</p>
+        </div>
+
+        <div class="card">
+            <h3>Before Tattooing</h3>
+            <p>Eat beforehand and tell the artist about relevant allergies or skin concerns.</p>
+        </div>
+
+        <div class="card">
+            <h3>Aftercare</h3>
+            <p>Follow aftercare instructions and seek medical advice if infection is suspected.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section dark">
+    <h2>Contact Us</h2>
+    <p>Have questions about our tattoo services? Send us a message.</p>
+
+    <form id="contactForm">
+        <input type="text" id="contactName" placeholder="Your Name" required>
+        <input type="email" id="contactEmail" placeholder="Your Email" required>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+        <p id="contactStatus"></p>
+    </form>
+</section>
+
+<footer>
+    <h2>LOCAL ART <span>TATTOO SHOP</span></h2>
+    <p>Black. White. Red. Your story in ink.</p>
+    <p>© 2026 Local Art Tattoo Shop</p>
+</footer>
+
+<script src="script.js"></script>
+
+<section id="gallery" class="section">
+  <h2>Our Tattoo Gallery</h2>
+  <p>Explore our tattoo designs and choose your favorite style.</p>
+
+  <div class="gallery-grid">
+
+    <div class="gallery-card">
+      <img src="
+           alt="Rose tattoo design">
+      <h3>Rose Tattoo</h3>
+      <p>Beautiful floral design with detailed black ink.</p>
+    </div>
+
+    <div class="gallery-card">
+      <img src="https://images.unsplash.com/photo-1590246814883-57c511a4a14a?auto=format&fit=crop&w=600&q=80"
+           alt="Dragon tattoo design">
+      <h3>Dragon Tattoo</h3>
+      <p>Bold artwork inspired by dragons and fantasy.</p>
+    </div>
+
+    <div class="gallery-card">
+      <img src="https://images.unsplash.com/photo-1565058379802-bbe93b2f703a?auto=format&fit=crop&w=600&q=80"
+           alt="Tribal tattoo design">
+      <h3>Tribal Tattoo</h3>
+      <p>Strong black patterns with detailed shapes.</p>
+    </div>
+
+    <div class="gallery-card">
+      <img src="https://images.unsplash.com/photo-1598371839696-5c5bb00bdc28?auto=format&fit=crop&w=600&q=80"
+           alt="Minimalist tattoo design">
+      <h3>Minimalist Tattoo</h3>
+      <p>Simple, clean, and elegant linework.</p>
+    </div>
+
+  </div>
+</section>
+
+</body>
+</html>
+Displaying kirt index.html.
